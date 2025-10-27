@@ -1,0 +1,31 @@
+# Requirements for development
+
+-r requirements.txt
+
+# Testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
+pytest-xdist>=2.0.0
+
+# Code Quality
+black>=21.0
+flake8>=3.9.0
+pylint>=2.8.0
+mypy>=0.910
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+sphinx-autodoc-typehints>=1.12.0
+
+# Jupyter & Notebooks
+jupyter>=1.0.0
+notebook>=6.0.0
+ipywidgets>=7.6.0
+
+# Performance Profiling
+line-profiler>=3.3.0
+memory-profiler>=0.58.0
+
+# Git hooks
+pre-commit>=2.13.0
